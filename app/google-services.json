@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "836017616631",
+    "firebase_url": "https://bd-examen-default-rtdb.firebaseio.com",
+    "project_id": "bd-examen",
+    "storage_bucket": "bd-examen.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836017616631:android:1bddb058052fc225e705f2",
+        "android_client_info": {
+          "package_name": "com.example.examencesarquezada"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "836017616631-iisiijbau3ku1tioislpihgiop044ucq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbxS4BN_LlkwjmJbIIcHNHIHHHefOqO0c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "836017616631-iisiijbau3ku1tioislpihgiop044ucq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
