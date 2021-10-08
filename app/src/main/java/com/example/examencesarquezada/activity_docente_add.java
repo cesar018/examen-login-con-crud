@@ -34,7 +34,6 @@ public class activity_docente_add extends AppCompatActivity {
         denei = findViewById(R.id.agre_dni);
         tele = findViewById(R.id.agre_telefono);
         corre = findViewById(R.id.agre_correo);
-
         listardocentes = findViewById(R.id.datosdocente);
         volver = (Button) findViewById(R.id.vol_agre);
         agregar = (Button) findViewById(R.id.agregar);

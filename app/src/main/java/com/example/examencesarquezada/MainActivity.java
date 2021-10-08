@@ -26,10 +26,7 @@ public class MainActivity extends AppCompatActivity {
         firebaseAuth = FirebaseAuth.getInstance();
         FirebaseAuth mAuth = FirebaseAuth.getInstance();
         FirebaseUser user = mAuth.getCurrentUser();
-            if(user!=null) {
-                startActivity(new Intent(this, activity_docente_list.class));
-                finish();
-            }
+
         login.setOnClickListener(view -> {
             String mail = txtcorreo.getText().toString();
             String pass = txtcontra.getText().toString();
@@ -46,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
                                     "Bienvenido!",
                                     Toast.LENGTH_SHORT
                             ).show();
-                            startActivity(new Intent(this, activity_docente_list.class));
+                            startActivity(new Intent(this, activity_docente_add.class));
                             finish();
                         }else{
                             Toast.makeText(

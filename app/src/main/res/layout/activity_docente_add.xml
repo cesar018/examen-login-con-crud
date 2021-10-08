@@ -91,11 +91,11 @@
         android:id="@+id/vol_agre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="616dp"
-        android:text="Volver"
+        android:layout_marginTop="528dp"
         android:backgroundTint="#86EF0B"
+        android:text="Volver"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.201"
+        app:layout_constraintHorizontal_bias="0.178"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -103,11 +103,11 @@
         android:id="@+id/agregar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="616dp"
-        android:text="Agregar"
+        android:layout_marginTop="528dp"
         android:backgroundTint="#D116F1"
+        android:text="Agregar"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.785"
+        app:layout_constraintHorizontal_bias="0.872"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

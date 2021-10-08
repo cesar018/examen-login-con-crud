@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     android:background="@drawable/login01"
     tools:context=".activity_docente_list">
-
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
@@ -43,5 +42,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:listitem="@layout/docente_item" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
